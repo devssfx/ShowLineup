@@ -1,0 +1,163 @@
+﻿body
+{
+    font-size: 1em;
+    font-family: "Trebuchet MS", Verdana, Helvetica, Sans-Serif;
+    color: #232323;
+    background-color: #fff;
+}
+
+
+
+/* My styles */
+input
+{
+	font-size:0.8em;
+}
+
+.header .headerMemberStuff
+{
+	/*float:left;*/
+}
+.header .headerLocationAndSearch
+{
+	float:right;
+}
+
+
+.navigation .addSomething
+{
+	/*float:right;*/
+}
+
+
+/* Location selection */
+.ls-country-item{padding-left:0px;}
+.ls-region-item{padding-left:10px;}
+.ls-area-item{padding-left:20px;}
+/* END:Location selection */
+
+/*
+.selected
+{
+	background-color:Yellow;
+}
+*/
+
+
+/* General */
+table tr td
+{
+	vertical-align:top;
+}
+/* END:General */
+
+/* Show Details */
+.tblShowDetails
+{
+	border:solid 1px #c0c0c0;
+	margin-top:10px;
+}
+
+.show-details-featuring
+{
+	margin-top:5px;
+	border:solid 1px #dedede;
+}
+/* END:Show Details */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.CalendarColours .ledgend
+{
+	float:left;
+	margin-right:2px;
+	padding:3px;
+}
+/******** END:Calander ************/
+
+.mainContent
+{
+	clear:both;
+	padding-left:30px;
+	padding-right:30px;
+	/*width:990px;*/
+	/*margin:auto;*/
+}
+.pageTitle
+{
+	padding:30px;
+	/*width:990px;*/
+	/*margin:auto;*/
+}
+
+
+#locationSelectionDropdown
+{
+	margin-bottom:10px;
+}
+
+
+.locationCountry
+{
+	float:left;
+}
+
+#divNavLinks div.navItem
+{
+	float:left;
+	margin-right:15px;
+	font-size:120%;
+}
+
+
+.show-box-performers
+{
+    max-width:25%;
+}
+
+.description-area
+{
+	 float:left;
+	 min-width:300px;
+	 max-width:600px;
+}
+.description-area .desc-tab{
+	background-color:#AFAFAF;
+	color:#000000;
+	float:left;
+	padding:5px;
+	margin-right:2px;
+}
+.description-area .desc-tab-bar
+{
+	background-color:#AFAFAF;
+	margin-top:2px;
+	height:10px;
+	clear:left;
+}
+
+.navImage
+{
+    float:left;padding-right:30px;
+}

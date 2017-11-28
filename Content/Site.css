@@ -1,0 +1,284 @@
+body
+{
+	padding:0;
+	margin:0;
+}
+h1, h2, h3, h4, h5
+{
+	padding:0;
+	margin:0;
+}
+
+.divButton
+{
+	cursor:pointer;
+}
+
+
+.header
+{
+	/*background-color:#89CEFF; /*#FFCA2D;*/
+}
+
+.navigation
+{
+	float:left;
+	
+}
+
+
+.footer
+{
+	/*background-color:#89CEFF; /*#FFCA2D;*/
+	padding:5px;
+	margin-top:15px;
+}
+
+a:link, a:hover, a:visited
+{
+	color:Navy;
+}
+a:link, a:visited
+{
+	text-decoration:none;
+}
+a:hover
+{
+	text-decoration:underline;
+}
+
+
+.backgroundColor
+{
+	background-color:#312356;
+	color:#ffffff;
+}
+.backgroundColor a:link, .backgroundColor a:hover, .backgroundColor a:visited
+{
+	color:#ffffff;
+}
+.backgroundColorAlt
+{
+	background-color:#F4EDE7;
+}
+
+
+/************ Styles for validation helpers **************/
+.field-validation-error
+{
+    color: #ff0000;
+}
+
+.field-validation-valid
+{
+    display: none;
+}
+
+.input-validation-error
+{
+    border: 1px solid #ff0000;
+    background-color: #ffeeee;
+}
+
+.validation-summary-errors
+{
+    font-weight: bold;
+    color: #ff0000;
+}
+
+.validation-summary-valid
+{
+    display: none;
+}
+/************ END:Styles for validation helpers **************/
+
+.locationCountry
+{
+	margin-right:10px;
+	margin-bottom:10px;
+}
+.locationRegion
+{
+	 margin-left:10px;
+}
+.locationArea
+{
+	 margin-left:20px;
+}
+
+.input-width-day, .input-width-time
+{
+	width:25px;
+}
+.input-width-year
+{
+	width:40px;
+}
+
+
+.editBar
+{
+	background-color:#D2FFBF;
+	margin-bottom:10px;
+	padding:2px;
+}
+.editBar span
+{
+	padding:5px;
+	font-size:110%;
+}
+
+.festivalOpenAllShows
+{
+	margin-top:5px;
+	margin-bottom:5px;
+	padding:5px;
+	background-color:orange;
+}
+
+/*** auto complete **/
+#autoComplete
+{
+	display:none;position:absolute;border:solid 1px #c0c0c0;padding:5px;
+	background-color:White;	
+}
+#autoComplete .item
+{
+	cursor:pointer;
+}
+/*#autoComplete .item:hover, */
+#autoComplete .item.selected
+{
+	background-color:Blue;
+	color:White;
+}
+/*** END:auto complete **/
+
+
+/******** Calander ************/
+.Calendar
+{
+	width:90%;
+	border-top:solid 1px black;
+	border-left:solid 1px black;
+	border-spacing:0;
+}
+
+.Calendar th, .Calendar td
+{
+	border-bottom:solid 1px black;
+	border-right:solid 1px black;
+	width:13%;
+}
+
+.Calendar th
+{
+	color:White;
+	background-color:Navy;
+}
+
+.Calendar .calDate
+{
+	background-color:#C3D9FF;
+}
+.Calendar .today
+{
+	background-color:#FFFFCC;
+}
+.Calendar .altMonth1
+{
+	background-color:#EDF0FF;
+}
+.Calendar .altMonth2
+{
+	background-color:#E2E8FF;
+}
+
+
+.Calendar .calDay
+{
+	min-height:20px;
+}
+.Calendar .calShow
+{
+	border:solid 1px black;
+	padding:2px;
+	margin:2px;
+}
+
+.CalendarColours .calShowGeneral
+{
+	background-color:#FFD800; /*yellow*/
+}
+
+.CalendarColours .calShowGoing
+{
+	background-color:#4CFF00; /*green*/
+}
+.CalendarColours .calShowInvolved
+{
+	background-color:#A0A0A0; /*light blue*/
+}
+.CalendarColours .calShowPerforming
+{
+	background-color:#FF7F7F; /*rose*/
+}
+.CalendarColours .calShowLikedPerformer
+{
+	background-color:#FF9451; /*orange brown*/
+}
+.CalendarColours .calShowLikedVenue
+{
+	background-color:#FF8CEF; /*purple*/
+}
+.CalendarColours .calShowLikedHost
+{
+	background-color:#FF6A00; /*orange*/
+}
+/******** END:Calander ************/
+
+.involvedWithBox
+{
+	background-color:#DDDDDD;
+	margin-top:10px;
+}
+
+
+
+.AssociationBorder .General
+{
+	background-color:#FFD800; /*yellow*/
+}
+
+.AssociationBorder .Going
+{
+	background-color:#4CFF00; /*green*/
+}
+.AssociationBorder .Involved
+{
+	background-color:#A0A0A0; /*light blue*/
+}
+.AssociationBorder .Performing
+{
+	background-color:#FF7F7F; /*rose*/
+}
+.AssociationBorder .LikedPerformer
+{
+	background-color:#FF9451; /*orange brown*/
+}
+.AssociationBorder .LikedVenue
+{
+	background-color:#FF8CEF; /*purple*/
+}
+.AssociationBorder .LikedHost
+{
+	background-color:#FF6A00; /*orange*/
+}
+
+
+.show-box-performers
+{
+    float:left;
+    padding-right:7px;
+}
+
